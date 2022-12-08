@@ -100,7 +100,7 @@ so easily use dune's [automated
 formatting](https://dune.readthedocs.io/en/stable/formatting.html#formatting-a-project):
 
 ```sh
-$ dune fmt
+$ dune build @fmt --auto-promote
 ```
 
 This will automatically reformat all source files to fit the configuation.
